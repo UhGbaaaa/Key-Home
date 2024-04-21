@@ -10,7 +10,7 @@ frame.Parent = screenGui
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 20)
 title.Position = UDim2.new(0, 0, 0, -20)
-title.Text = "Global Key System Script"
+title.Text = "Universal Key System Script"
 title.TextColor3 = Color3.new(1, 1, 1)
 title.BackgroundColor3 = Color3.new(0, 0, 0)
 title.Parent = frame
@@ -61,7 +61,7 @@ end)
 local KeySystem = Instance.new("TextBox")
 KeySystem.Size = UDim2.new(1, 0, 0.5, 0)
 KeySystem.Position = UDim2.new(0, 0, 0, 0)
-KeySystem.Text = "Enter key number "
+KeySystem.Text = "Enter the Key"
 KeySystem.TextColor3 = Color3.new(0, 0, 0)
 KeySystem.BackgroundTransparency = 0.5
 KeySystem.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -89,19 +89,19 @@ end)
 local GetKeyButton = Instance.new("TextButton")
 GetKeyButton.Size = UDim2.new(0.5, 0, 0.5, 0)
 GetKeyButton.Position = UDim2.new(0.5, 0, 0.5, 0)
-GetKeyButton.Text = "Get the key "
+GetKeyButton.Text = "Get Key"
 GetKeyButton.Parent = frame
 --------------------------------------------------------------------------
 SubmitButton.MouseButton1Click:Connect(function()
     local KeySystem = KeySystem.Text
-    if KeySystem == "1IMBOUIA202333" then   
+    if KeySystem == "prws51#ja!mandxbrobalox" then   
 screenGui:Destroy()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Rta299921mo/main/Rta299921mo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/-/main/%E1%9E%A0%E1%9F%81%E1%9E%80%E1%9E%81%E1%9F%92%E1%9E%98%E1%9F%82%E1%9E%9A"))()
   
   end
 end)
 
 GetKeyButton.MouseButton1Click:Connect(function()
- setclipboard("https://t.me/+1TnNxelaU71kOWI1") 
+ setclipboard("Paste here your link to get the key") 
 end) 
